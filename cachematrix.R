@@ -5,7 +5,7 @@
 ## The makeCacheMatrix also provides read(get) and write(set) methods for accessing the two stored matrices
 ## The inverse of the matrix is actually calculated outside the makeCacheMatrix in the cacheSolve function
 ## The cacheSolve creates the inverse of a matrix only during the first invokation & thereafter avoids fresh calculation by simply accessing the cached inverse
-
+## The cacheSolve assumes the input is a non-singular square matrix
 
 ## Write a short comment describing this function
 
